@@ -1,0 +1,179 @@
+.splash-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  grid-column-gap: 10px;
+}
+
+.splash-left-col {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  align-self: center;
+  padding: 50px;
+}
+
+.splash-right-col {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  align-self: center;
+  padding: 50px;
+}
+
+.splash-steps-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+  grid-column-gap: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.splash-step1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  align-self: start;
+  padding: 5px;
+  text-align: left;
+}
+
+.splash-step2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  align-self: start;
+  padding: 5px;
+  text-align: left;
+}
+
+.splash-step3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  align-self: start;
+  padding: 5px;
+  text-align: left;
+}
+
+.splash-step4 {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  align-self: start;
+  padding: 5px;
+  text-align: left;
+}
+
+.step-card {
+  min-height: 110px;
+  max-height: 500px;
+}
+
+.step-card-height {
+  min-height: 320px;
+}
+
+.splash-button{
+  color: white;
+  font-style: oblique;
+  font-weight: bold;
+  background-color: #43bd16;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-width: 0rem;
+}
+
+.splash-button:hover{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .splash-container{
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .splash-left-col {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-self: center;
+    padding: 50px;
+  }
+  
+  .splash-right-col {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-self: center;
+    padding: 50px;
+  }
+
+  .splash-steps-container {
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
+  }
+  
+  .splash-step1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-self: start;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .splash-step2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-self: start;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .splash-step3 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    align-self: start;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .splash-step4 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    align-self: start;
+    padding: 5px;
+    text-align: left;
+  }
+
+  .step-card {
+    min-height: 450px;
+  }
+
+  .step-card-height {
+    min-height: 250px;
+  }
+}

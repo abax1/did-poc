@@ -1,0 +1,63 @@
+.report-table {
+    margin-left: 0rem;
+    margin-right: 10rem;
+    margin-top: 0rem;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.report-data-records {
+    font-size: small;
+}
+
+.report-tabs {
+    margin: 1rem;
+    margin-top: 5rem;
+}
+
+.report-alert-icon {
+    float: right;
+    margin-top: 6px;
+    color: crimson;
+    position: relative;
+}
+
+.report-draft-status-count{
+    position: fixed;
+    transform: translate(169px, -29px); 
+    font-size: 9pt; 
+    color: white;
+    text-align: center;
+}
+
+.report-create-button-container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: auto;
+    grid-row-gap: 15px;
+    margin-top: 1rem;
+
+}
+
+.table-overflow{
+    overflow: auto;
+}
+
+.report-create-button{
+    grid-column-start: 4;
+    justify-items: end;
+}
+
+@media only screen and (max-width: 948px) {
+    .report-table {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .report-table {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}

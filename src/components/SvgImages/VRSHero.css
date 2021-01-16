@@ -1,0 +1,29 @@
+#head {
+    animation: head 3s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes head {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(8deg);
+    }
+  }
+
+  #planet {
+    animation: planet 15s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes planet {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }

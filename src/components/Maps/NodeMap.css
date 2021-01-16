@@ -1,0 +1,53 @@
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.map-style {
+  min-width: 100%;
+  margin-top: -200px;
+}
+
+.map-label {
+  font-size: 6px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .map-style {
+    min-width: 100%;
+    margin-top: 0px;
+  }
+  .map-label {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .map-style {
+    min-width: 100%;
+    margin-top: -150px;
+  }
+  .map-label {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1460px) {
+  .map-style {
+    min-width: 100%;
+    margin-top: -40px;
+  }
+  .map-label {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .map-style {
+    min-width: 100%;
+    margin-top: -50px;
+  }
+  .map-label {
+    font-size: 20px;
+  }
+}

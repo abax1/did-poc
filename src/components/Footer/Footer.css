@@ -1,0 +1,14 @@
+.hdr-overlay {
+  top: 0;
+  left: calc(50vw - 50vw / 2);
+  margin: 10vh 0;
+  width: 50vw;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.footer {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

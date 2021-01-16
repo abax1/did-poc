@@ -1,0 +1,6 @@
+.account-overlay {
+  top: 0;
+  left: calc(50vw - 15vw);
+  margin: 10vh 0;
+  min-width: 20rem;
+}

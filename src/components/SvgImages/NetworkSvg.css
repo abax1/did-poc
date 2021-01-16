@@ -1,0 +1,14 @@
+#network-circle {
+  animation: spin 5s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateZ(-20deg);
+  }
+  to {
+    transform: rotateZ(20deg);
+  }
+}

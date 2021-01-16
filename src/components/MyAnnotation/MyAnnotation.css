@@ -1,0 +1,15 @@
+
+.hidden {
+  display: none;
+}
+
+.note-style {
+  font-size: 5pt;
+  stroke-width: 0.5pt;
+}
+
+.annotation-note-bg{
+  fill: #9610ff;
+  fill-opacity: .5;
+
+}

@@ -1,0 +1,71 @@
+#head {
+  animation: head 2s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes head {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(8deg);
+  }
+}
+
+#legs {
+  animation: legs 2s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes legs {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(8deg);
+  }
+}
+
+#flower {
+  animation: flower 0.5s ease-in-out infinite alternate;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+@keyframes flower {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-5deg);
+  }
+}
+
+#cloud1 {
+  animation: cloud 50s infinite;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+#cloud2 {
+  animation: cloud 60s infinite;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+#cloud3 {
+  animation: cloud 70s infinite;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+@keyframes cloud {
+  from {
+    transform: translateX(-810px);
+  }
+  to {
+    transform: translateX(900px);
+  }
+}

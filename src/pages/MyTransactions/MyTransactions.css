@@ -1,0 +1,48 @@
+#peers-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.peers-full-width {
+  width: 100%;
+  margin: 10px;
+  /*background-color: blue;*/
+}
+.peers-col-1 {
+  width: 30%;
+  margin: 10px;
+  /*background-color: blue;*/
+}
+.peers-col-2 {
+  width: 70%;
+  /*background-color: green;*/
+  margin: 10px;
+}
+
+.peers-card {
+  min-height: 15rem;
+}
+
+
+.peers-dash-item {
+  text-align: center;
+}
+
+.peers-help-icon {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* For mobile phones: */
+  .peers-col-1,
+  .peers-col-2,
+  .peers-col-3 {
+    width: auto;
+    margin: 10px;
+  }
+
+  #peers-container {
+    display: inline;
+    margin: 10px;
+  }
+}

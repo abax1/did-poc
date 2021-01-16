@@ -1,0 +1,44 @@
+#dash-head {
+  animation: dash-head 3s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes dash-head {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(25deg);
+  }
+}
+
+#dash-flower {
+  animation: dash-flower 1s ease-in-out infinite alternate;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+@keyframes dash-flower {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-5deg);
+  }
+}
+
+/* #dash-arm {
+  animation: dash-arm 1s ease-in-out infinite alternate;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+@keyframes dash-arm {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(15deg);
+  }
+} */

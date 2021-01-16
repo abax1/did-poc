@@ -1,0 +1,6 @@
+.hdr-overlay{
+    top: 0;
+  left: calc(50vw - 50vw / 2);
+  margin: 10vh 0;
+  width: 50vw;
+}

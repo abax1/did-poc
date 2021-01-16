@@ -1,0 +1,134 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userId": 101,
+      "name": "Alice"
+    },
+    {
+      "id": 2,
+      "userId": 102,
+      "name": "Bob"
+    },
+    {
+      "id": 3,
+      "userId": 103,
+      "name": "Carol"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "device_id": 4,
+      "tx_hash": "h4WQOUpI3GhuYkK3pN7gS1zEVg6McjLbIbMSho6X99U=",
+      "from": "T6f0dTt8wFdFwtEEnqv7uL1gP9LspFKhG1dZfmBXPtI=",
+      "to": "Oa96AmSO5w7cGOC20e/7MJEuB/RAjvP0GRFvWGiT5jc=",
+      "Amount": 10,
+      "timestamp": 1562857297,
+      "lat": -130.9998,
+      "long": 30
+    },
+    {
+      "id": 2,
+      "device_id": 4,
+      "tx_hash": "h4WQOUpI3GhuYkK3pN7gS1zEVg6McjLbIbMSho6X99U=",
+      "from": "T6f0dTt8wFdFwtEEnqv7uL1gP9LspFKhG1dZfmBXPtI=",
+      "to": "Oa96AmSO5w7cGOC20e/7MJEuB/RAjvP0GRFvWGiT5jc=",
+      "Amount": 10,
+      "timestamp": 1562857297,
+      "lat": -130.9998,
+      "long": 30
+    },
+    {
+      "id": 3,
+      "device_id": 2,
+      "tx_hash": "h4WQOUpI3GhuYkK3pN7gS1zEVg6McjLbIbMSho6X99U=",
+      "from": "T6f0dTt8wFdFwtEEnqv7uL1gP9LspFKhG1dZfmBXPtI=",
+      "to": "Oa96AmSO5w7cGOC20e/7MJEuB/RAjvP0GRFvWGiT5jc=",
+      "Amount": 10,
+      "timestamp": 1562857297,
+      "lat": -130.9998,
+      "long": 30
+    },
+    {
+      "id": 4,
+      "device_id": 2,
+      "tx_hash": "h4WQOUpI3GhuYkK3pN7gS1zEVg6McjLbIbMSho6X99U=",
+      "from": "T6f0dTt8wFdFwtEEnqv7uL1gP9LspFKhG1dZfmBXPtI=",
+      "to": "Oa96AmSO5w7cGOC20e/7MJEuB/RAjvP0GRFvWGiT5jc=",
+      "Amount": 10,
+      "timestamp": 1562857297,
+      "lat": -130.9998,
+      "long": 30
+    },
+    {
+      "id": 5,
+      "device_id": 4,
+      "tx_hash": "h4WQOUpI3GhuYkK3pN7gS1zEVg6McjLbIbMSho6X99U=",
+      "from": "T6f0dTt8wFdFwtEEnqv7uL1gP9LspFKhG1dZfmBXPtI=",
+      "to": "Oa96AmSO5w7cGOC20e/7MJEuB/RAjvP0GRFvWGiT5jc=",
+      "Amount": 10,
+      "timestamp": 1562857297,
+      "lat": -130.9998,
+      "long": 30
+    },
+    {
+      "id": 6,
+      "device_id": 4,
+      "tx_hash": "h4WQOUpI3GhuYkK3pN7gS1zEVg6McjLbIbMSho6X99U=",
+      "from": "T6f0dTt8wFdFwtEEnqv7uL1gP9LspFKhG1dZfmBXPtI=",
+      "to": "Oa96AmSO5w7cGOC20e/7MJEuB/RAjvP0GRFvWGiT5jc=",
+      "Amount": 10,
+      "timestamp": 1562857297,
+      "lat": -130.9998,
+      "long": 30
+    }
+  ],
+  "peers": [
+    {
+      "id": 1,
+      "commonName": null,
+      "organisationUnit": null,
+      "organisation": "PartyB",
+      "locality": "New York",
+      "state": null,
+      "country": "US",
+      "x500Principal": {
+        "name": "O=PartyB,L=New York,C=US",
+        "encoded": "MDExCzAJBgNVBAYTAlVTMREwDwYDVQQHDAhOZXcgWW9yazEPMA0GA1UECgwGUGFydHlC"
+      }
+    },
+    {
+      "id": 2,
+      "commonName": null,
+      "organisationUnit": null,
+      "organisation": "PartyC",
+      "locality": "London",
+      "state": null,
+      "country": "UK",
+      "x500Principal": {
+        "name": "O=PartyC,L=London,C=UK",
+        "encoded": "MDExCzAJBgNVBAYTAlVTMREwDwYDVQQHDAhOZXcgWW9yazEPMA0GA1UECgwGUGFydHlC"
+      }
+    }
+  ],
+  "me": {
+    "id": 1,
+    "registered": "2019-07-16T09:59:57.455Z",
+    "o": "O=PartyA, L=London, C=GB",
+    "key": "net.i2p.crypto.eddsa.EdDSAPublicKey@752f22e2",
+    "balance": 23
+  },
+  "accounts": [
+    {
+      "id": 1,
+      "accountName": "CarA",
+      "contactEndpoint": "http://foobar/CarA"
+    },
+    {
+      "accountName": "CarB",
+      "contactEndpoint": "http://",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+#wind3 {
+    animation: head 8s infinite linear;
+    transform-origin: 50% 71%;
+    transform-box: fill-box;
+  }
+  
+  @keyframes head {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+
+  #wind2 {
+    animation: head 6s infinite linear;
+    transform-origin: 50% 71%;
+    transform-box: fill-box;
+  }
+  
+  @keyframes head {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+
+  
+  #wind1 {
+    animation: head 5s infinite linear;
+    transform-origin: 50% 71%;
+    transform-box: fill-box;
+  }
+  
+  @keyframes head {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
